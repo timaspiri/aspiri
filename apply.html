@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Building Inspiring Companies | Aspiri</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900" rel="stylesheet">
+
+  </head>
+
+<body id="boody">
+  <div class="container-fluid top-bar">
+    <span>Aspiri</span>
+      <!--hamburger nav-->
+      <div class="hamburger">
+       <button onclick="ShowProjects('mainNav')">
+         <hr><hr><hr>
+       </button>
+      </div>
+      <div class="main-nav" id="mainNav">
+        <div class="toggle" id="x">
+          <div class="x">
+            <img src="images/x.png" title="Exit">
+          </div>
+        </div>
+        <li>Why Aspiri?</li>
+        <li>Projects</li>
+        <li>Our Team</li>
+      </div>
+      <!--hamburger end-->
+  </div>
+  <div class="container-fluid apply-form">
+    <form>
+      <span>Full Name</span><br>
+      <input type="text"></input>
+    </form>
+  </div>
+
+
+  <script src="/js/scripts.js"></script>
+
+  <script>
+    $('#x').click(function(){ ShowProjects('mainNav'); return false; });
+  </script>
+
+  <script>
+    $(function(){
+    $("#footer").load("footer.html"); 
+    });
+  </script>
+
+  </body>
+
