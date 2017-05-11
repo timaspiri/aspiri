@@ -13,3 +13,15 @@ function ShowProjects(element) {
     document.getElementById('boody').style.overflowY ="hidden";
   }
 }
+/*
+function SubmitForm(){
+  document.getElementById("loader").style.display = 'block';
+  var fullname = document.getElementById("fullname").value;
+  var email = document.getElementById("email").value;
+  var phone = document.getElementById("phone").value;
+  var website = document.getElementById("website").value;
+  var wdd = document.getElementById("wdd").value;  
+  var social = document.getElementById("social").value;
+  var marketing = document.getElementById("marketing").value;
+}
+*/

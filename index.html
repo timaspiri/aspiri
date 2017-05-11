@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!-- Meta -->
     <meta charset="utf-8">
@@ -18,7 +18,7 @@
    
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One|Heebo:100,300,400,500,700,800,900" rel="stylesheet">
     
   </head>
   
@@ -36,14 +36,7 @@
        </button> 
       </div>
       <div class="main-nav" id="mainNav">
-        <div class="toggle" id="x">
-          <div class="x">
-            <img src="images/x.png" title="Exit">
-          </div>
-        </div>
-        <li>Why Aspiri?</li>
-        <li>Projects</li>
-        <li>Our Team</li>
+        
       </div>
       <!--hamburger end-->
 
@@ -53,18 +46,17 @@
       <div class="hero-subtitle">
         <span>We open new opportunities for small businesses.</span>
       </div>
-      <!--
+      
       <div class="hero-btn">
-        <span>See How</span>
+        <a href="/apply"><span>Work with us</span></a>
       </div>
-      <button class="hero-projects-btn" onclick="ShowProjects('projects')">
-        <span>Projects</span>
-      </button>
-      -->
+      
       
       <div class="projects-nav" id="projects">
-        <li>AV Resources Corp</li>
-        <li>Pangea</li>
+        <ul>
+          <li>AV Resources Corp</li>
+          <li>Pangea</li>
+        </ul>
       </div>
 
       <div class="hero-method-btn">
@@ -92,13 +84,13 @@
             <span>
               Your business is unique and so is your online presence.  We custom build all types of websites - from blogs, ecommerce to websites that take bookings, we handle it all.
             </span>
-            <button class="reasons-btn">
-              <span>Read what our clients say</span>
-            </button>
+            <a class="reasons-btn" href="/">
+              <span>View our projects</span>
+            </a>
           </div>
           <div class="col-sm-5">
             <div class="wwd-phone">
-              <img src="/images/phone.png" title="Healthcare website">
+              <img src="/images/phone.png" alt="Healthcare website">
             </div>
           </div>
         </div> 
@@ -107,7 +99,7 @@
   
     <div class="container-fluid projects-wrapper">
       <div class="col-sm-12 projects-title">
-        <span>Our Websites</span><br><span class="light-text">create presence<span>
+        <span>Our Websites</span><br><span class="light-text">create presence</span>
       </div>
       <div class="row">
         <div class="col-sm-6">
@@ -149,9 +141,7 @@
               </div>
             </div>
             <div class="row start-now">
-              <div class="col-sm-12">
-                <button class="reasons-btn" style="background-color:transparent;"><span style="color:#FD881A; font-weight:300;">Get started now</span></button>
-              </div>
+                <a class="reasons-btn" href="/apply"><span>Get started now</span></a>
             </div>
           </div>
         </div>
@@ -166,6 +156,9 @@
         <div class="col-sm-5 fotl-intro">
           <span>Establish your digital and social media presence<br><br>Develop creative, collaborative marketing campaigns<br><br>Build a top notch product</span>
         </div>
+        <div class="marketing-cta">
+            <a class="reasons-btn" href="/apply"><span>Get started now</span></a>
+        </div>
       </div>
     </div>
 
@@ -178,11 +171,8 @@
   <script src="/js/scripts.js"></script>
 
   <script>
-    $('#x').click(function(){ ShowProjects('mainNav'); return false; });
-  </script>
-
-  <script>
     $(function(){
+    $("#mainNav").load("nav.html");
     $("#footer").load("footer.html"); 
     });
   </script>
