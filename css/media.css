@@ -1,42 +1,25 @@
 @media only screen and (max-width: 1144px) {
 
 .hero {
-  height: 650px;
+  height: 500px;
 }
 
 .hero-title {
   font-size: 70px;
-  top: 10%;
+  top: 25%;
 }
 
 .hero-subtitle {
   font-size: 25px;
-  top: 10%;
+  top: 25%;
 }
 
 .hero-btn {
-  top: 15%;
-  left: 5%;
+  top: 30%;
+  left: 4%;
 }
 .hero-btn span {
   top: 20%;
-  font-size: 20px;
-}
-.hero-btn:hover {
-  box-shadow: inset 0px 0px 10px rgba(192,192,192,0.2);
-  cursor: pointer;
-  width: 155px;
-  height: 55px;
-}
-.hero-btn:hover span {
-  font-size:22px;
-}
-
-.hero-projects-btn {
-  margin-top: 120px;
-}
-
-.hero-projects-btn span {
   font-size: 20px;
 }
 
@@ -82,7 +65,7 @@
 }
 
 .hero {
-  height: 400px;
+  height: 450px;
 }
 
 .hero-title {
@@ -90,16 +73,12 @@
 }
 
 .hero-subtitle {
-  top: 28%;
+  top: 25%;
   font-size: 18px;
 }
 
 .hero-btn {
-  display: none;
-}
-
-.hero-projects-btn {
-  display: none;
+  top:35%;
 }
 
 .project-wrapper {
@@ -111,6 +90,18 @@
 
 .project-intro {
   margin-left: 23%;
+}
+
+.fotl-intro {
+  font-size: 18px;
+  margin-left: 11%;
+  width: 53%;
+}
+
+.marketing-cta {
+  position: absolute;
+  margin-top: 460px;
+  right: 35%;
 }
 
 }
@@ -150,7 +141,7 @@
 .wwd-inner-wrapper {
   height: 578px;
   margin: 0 5%;
-  top: 16px;
+  top: 0;
   padding-top: 0;
 }
 
@@ -188,7 +179,7 @@
 .reasons-btn {
   border: none;
   background-color: transparent;
-  width: 261px;
+  width: 255px;
   height: 50px;
   border-radius: 0;
   text-align: center;
@@ -236,6 +227,36 @@
   margin-top: 100px;
 }
 
+.fotl-intro {
+  font-size: 18px;
+  margin-left: 10%;
+  width: 56%;
+}
+
+.marketing-cta {
+  position: absolute;
+  margin-top: -170px;
+  right: 30%;
+}
+
+.apply-form-body {
+  width: 475px;
+  margin: auto;
+}
+
+.input-box {
+  width: 435px;
+}
+
+.submit-btn {
+  margin-left: 320px;
+}
+
+.tc {
+  padding-left: 42%;
+}
+
+
 }
 
 @media only screen and (max-width: 506px) {
@@ -243,19 +264,47 @@
   margin-right:0;
 }
 
+.top-bar {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.main-nav ul {
+  padding: 0;
+}
+.main-nav li {
+  padding-top: 15px;
+  font-size: 18px;
+  text-align: left;
+  list-style: none;
+}
+
 .intro-box {
   margin-left: 0;
 }
 
+.hero {
+  height: 335px;
+}
 .hero-title {
   left: 0;
+  top: 10px;
+  font-size: 40px;
+}
+.hero-btn {
+  top: 10%;
+  left: -10px;
 }
 
 .hero-subtitle {
-  top: 25%;
+  top: 4%;
   font-size: 25px;
   left: 0;
   width: 80%;
+}
+
+.hero-btn {
+  top: 20%;
 }
 
 .intro-wrapper {
@@ -272,7 +321,7 @@
 
 .wwd-wrapper {
   padding-right: 0;
-  background-color: #fdd835;
+  background-color: #fffae4;
 }
 
 .wwd-inner-wrapper {
@@ -300,7 +349,7 @@
 .reasons-btn {
   border: none;
   background-color: transparent;
-  width: 261px;
+  width: 255px;
   height: 50px;
   border-radius: 0;
   text-align: center;
@@ -312,6 +361,7 @@
 .projects-wrapper {
   height: 900px;
   padding: 0;
+  background: #fffae4;
 }
 
 .projects-title {
@@ -353,8 +403,32 @@
 
 .fotl-intro {
   font-size: 18px;
-  margin-left: 12%
+  margin-left: 11%;
+  width: 89%;
 }
+
+.marketing-cta {
+  margin-top: -75px;
+  left: 20%;
+}
+
+.apply-form-body {
+  width: 100%;
+  margin-left: 8px;
+}
+
+.input-box {
+  width: 100%;
+}
+
+.submit-btn {
+  margin-left: 0;
+}
+
+.tc {
+  padding-left: 0;
+}
+
 
 }
 

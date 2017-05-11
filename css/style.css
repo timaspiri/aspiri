@@ -2,8 +2,17 @@
   font-family: 'Heebo', san-serif;
 }
 
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 #boody {
-  overflow-y: block;
+  overflow-y: scroll;
 }
 
 button {
@@ -19,8 +28,8 @@ button {
 .hamburger {
   display: block;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 20px;
 }
 .hamburger button {
   height: 40px;
@@ -30,13 +39,12 @@ button {
 }
 .hamburger hr {
   margin: 5px 0;
-  border-color: #fff;
+  border-color: #424242;
   border-width: 2px;
   width: 25px;
   margin-left: 20%;
 }
 .hamburger button:active {
-  background-color: rgba(255,255,255,.8);
 }
 .hamburger button:focus {
   outline: 0;
@@ -61,6 +69,8 @@ button {
 .main-nav li {
   padding-top: 15px;
   font-size: 18px;
+  text-align: center;
+  list-style: none;
 }
 .main-nav li:hover {
   cursor: pointer;
@@ -84,6 +94,8 @@ button {
 
 .x img {
   width: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 .light-text {
@@ -92,18 +104,23 @@ button {
 }
 
 .hero {
+  background: #fff;
+  height: 600px;
+  overflow: hidden;
+}
+/*
+.hero {
   background: url(/images/abb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /*
-  background: linear-gradient(to bottom right, #1DE9B6, #FFEE58); /* Standard syntax */
   height: 800px;
   overflow: hidden;
 }
+*/
 
 .hero-title {
   font-size: 80px;
-  color: #eee;
+  color: #F44336;
   position: relative;
   top: 20%;
   left: 5%;
@@ -111,10 +128,13 @@ button {
   width: 300px;
   z-index: 999;
 }
+.hero-title span {
+  font-family: 'Contrail One', cursive !important;
+}
 
 .hero-subtitle {
   font-size: 30px;
-  color: #eee;
+  color: #424242;
   position: relative;
   top: 20%;
   left: 5%;
@@ -123,14 +143,13 @@ button {
   z-index: 1000;
   padding-right: 5px;
 }
-/*
+
 .hero-btn {
-  border: 1px solid #fff;
-  width: 150px;
-  height: 50px;
+  width: 180px;
+  height: 55px;
   border-radius: 10px;
   position: relative;
-  top: 23%;
+  top: 30%;
   left: 5%;
   text-align: center;
   transition: 0.2s;
@@ -138,25 +157,33 @@ button {
 .hero-btn span {
   position: relative;
   top: 15%;
-  font-size: 25px;
-  font-weight: 300;
-  color: #fff;
+  left: -22px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #777;
   transition: 0.2s;
 }
 .hero-btn:hover {
-  box-shadow: inset 0px 0px 10px rgba(192,192,192,0.2);
   cursor: pointer;
-  width: 155px;
-  height: 55px;
 }
 .hero-btn:hover span {
-  font-size:28px;
+}
+.hero-btn span:after {
+  content: '\2192';
+  position: absolute;
+  opacity: 1;
+  top: 3px;
+  right: -35px;
+  transition: 0.5s;
+}
+.hero-btn:hover span:after {
+  right: -45px;
 }
 
 .hero-btn:active {
-  background-color: rgba(0,0,0,0.3);
 }
 
+/*
 .hero-projects-btn {
   border: 1px solid #fff;
   background-color: transparent;
@@ -240,7 +267,7 @@ button {
 
 .intro-wrapper {
   height: 400px;
-  background-color: #fdd835;
+  background-color: #3FD3E3;
 }
 .intro-box {
   position: relative;
@@ -255,8 +282,8 @@ button {
 .intro-box h1 {
   padding-top: 25px;
   font-size: 40px;
-  font-weight: 100;
-  color: #333; 
+  font-weight: 300;
+  color: #424242; 
 }
 
 .intro-banner-text {
@@ -322,10 +349,10 @@ button {
 .reasons-btn span {
   position: relative;
   top: 15%;
-  right: 20px;
+  right: 52px;
   font-size: 16px;
-  font-weight: 300;
-  color: #FD881A;
+  font-weight: 400;
+  color: #F44336;
   transition: 0.5s;
   text-transform: uppercase;
 }
@@ -465,11 +492,17 @@ button {
 .start-now {
   position: absolute;
   bottom: 1%;
-  right: 10%;
+  right: -4%;
+}
+
+.marketing-cta {
+  position: absolute;
+  margin-top: 475px;
+  right: 50%;
 }
 
 .fotl-wrapper {
-  height: 550px;
+  height: 620px;
   background: #f7f7f7;
   padding: 0;
 }
@@ -492,24 +525,107 @@ button {
   margin-left: 9%;
   background-color: rgba(255,255,255,.9);
   padding: 30px;
+  height: 300px;  
+  width: 40%;
 }
+
 
 .fotl-img {
   background-image: url(/images/abb2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 530px;
+  height: 600px;
   margin: 10px;
 }
 
 .top-bar {
   height: 75px;
-  background: #333;  
-}
-
-.top-bar span {
+  background: #0a0a0a;  
   text-align: center;
   font-size: 40px;
   font-weight: 400;
   color: #fff;
+  padding-top: 10px;
+}
+
+.apply-form-title {
+  margin-top: 20px;
+  margin-left: 3%;
+}
+.apply-form-title h1 {
+  font-size: 40px;
+  font-weight: 100;
+  color: #fff;
+}
+.apply-form-title h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+  color: #fff;
+}
+
+hr {
+  width: 100px;
+  margin: 25px 0 25px 0;
+}
+
+.apply-form-body {
+  margin-left: 4%;
+  margin-bottom: 4%;
+  padding: 20px;
+  background: rgba(255,255,255,1);
+  width: 550px;
+  border-radius: 2px;
+}
+
+.input-text {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.input-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.input-box {
+  width: 500px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+input[type=checkbox] {
+  margin: 10px 10px 10px 0;
+}
+input[value] {
+  color: #fff;
+  font-size: 20px;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  margin-left: 386px;
+  background: #fdd835;
+  border: none;
+  padding: 15px 25px; 
+  outline: 0;
+}
+.submit-btn:active {
+  background: #fdd421;
+}
+
+.tc {
+  font-size: 14px;
+  font-weight: 100;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-left: 45%;
+}
+
+.apply-form-wrapper {
+  background: url(/images/abb3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
