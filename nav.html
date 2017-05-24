@@ -1,15 +1,68 @@
-       <div class="toggle" id="x">
-          <div class="x">
-            <img src="images/x.png" alt="Exit">
+      <nav class="navbar navbar-default">
+        <div class="container navbar-vertical-align navbar-full-width">
+          <div class="navbar-header" style="margin-right:-15px;margin-left:-15px;">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Aspiri</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/#projects">PROJECTS</a></li>
+              <li><a class="cta-button" href="" data-toggle="modal" data-target="#form">INQUIRE</a></li>
+            </ul>
           </div>
         </div>
-        <ul>
-          <a href="/"><li>Aspiri</li></a>
-          <a href="/"><li>Projects</li></a>
-          <a href="/"><li>Our Team</li></a>
-          <a href="/apply"><li>Work With Us</li></a>
-        </ul>
+      </nav>
+                <!-- contact form -->
+                <div id="form" class="modal fade" role="dialog">
+                <div class="modal-dialog">
 
-<script>
-  $('#x').click(function(){ ShowProjects('mainNav'); return false; });
-</script>
+                <!-- contact form content-->
+                <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid apply-form-wrapper" style="background:#fff;">
+                    <div class="row">
+                      <div class="col-sm-6 apply-form-title">
+                        <h1 class="title" style="color: #323232;">Work with us</h1>
+                        <h2 class="subtitle" style="color: #323232;">Take your business to the next level</h2>
+                        <hr>
+                      </div>
+                      <div class="col-sm-6"></div>
+                      </div>
+                    <div class="row">
+                      <div class="col-sm-6 apply-form-body">
+                        <form action="https://formspree.io/tim@aspiri.co" method="post">
+                          <span class="input-title">Full Name</span><br>
+                          <input id="fullname" class="input-box input-text" name ="name" type="text" maxlength="40"></input><br>
+                          <span class="input-title">Email</span><br>
+                          <input id= "email" class="input-box input-text" name="email" type="email"></input><br>
+                          <span class="input-title">Phone</span><br>
+                          <input id="phone" class="input-box input-text" name="phone" type="text"></input><br>
+                          <span class="input-title">Current Website</span><br>
+                          <input id="website" class="input-box input-text" name="website" type="text"></input><br>
+                          <span class="input-title">Interested Services</span><br>
+                          <input id="wdd" type="checkbox" name="service" id="s1" value="Web Design and Development">Web Design & Development</input><br>
+                          <input id="social" type="checkbox" name="service" id="s2" value="Social Content Management">Social Content Management</input><br>
+                          <input id="marketing" type="checkbox" name="service" id="s3" value="Curated Marketing Campaigns">Curated Marketing Campaigns</input><br>
+                          <span class="input-title">Your Industry</span><br>
+                          <input id="industry" class="input-box input-text" name="industry" type="text" placeholder="Healthcare, small business owner, fitness, etc." maxlength="40"></input><br>
+                          <div id="loader" class="loader"></div>
+                          <input class="submit-btn" type="submit" value="Submit"></input>
+                        </form>
+                        <span class="tc">Our team will contact you within 48 hours</span >
+                      </div>
+                    <div class="col-sm-6"></div>
+                  </div>
+
+                </div>
+                </div>
+              </div>
+              </div>
+               <!-- contact form content end -->

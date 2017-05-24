@@ -16,24 +16,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/media.css">
-    <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One|Heebo:100,300,400,500,700,800,900" rel="stylesheet">
 
   </head>
 
-<body id="boody">
-  <div class="container-fluid top-bar">
-    <a href="/">Aspiri</a>
-      <!--hamburger nav-->
-      <div class="hamburger">
-       <button onclick="ShowProjects('mainNav')">
-         <hr><hr><hr>
-       </button>
-      </div>
-      <div class="main-nav" id="mainNav">
-       
-      </div>
-  </div>
+<body>
+  <div class="container-fluid">
+  <div id="nav"></div>
   <div class="container-fluid apply-form-wrapper">
     <div class="row">
       <div class="col-sm-6 apply-form-title">
@@ -68,14 +57,14 @@
       <div class="col-sm-6"></div>
     </div>   
   </div>
-
+  </div>
 
   <script src="/js/scripts.js"></script>
 
   <script>
     $(function(){
-    $("#mainNav").load("nav.html");
-    $("#footer").load("footer.html"); 
+    $("#nav").load("nav.html");
+
     });
   </script>
 

@@ -1,0 +1,640 @@
+@media (min-width:1201px) {
+
+  /* Portfolio Page CSS */
+
+  .title{
+    text-align: left;
+    font-size: 2.2em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-top: 10px;
+
+  }
+
+  .title-hero{
+    text-align: left;
+    font-size: 2.2em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+
+  .title-center {
+    text-align: center;
+  }
+
+
+  .subtitle-hero {
+    font-weight: lighter;
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: 60px;
+  }
+
+  .subtitle-hero-1200 {
+    font-weight:lighter;
+    margin-left: 0;
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: 60px;
+  }
+
+  .title-large {
+    margin-left: 60px;
+  }
+
+
+  .paragraph{
+    font-size: 1.5em;
+    font-weight:lighter;
+    text-align:left;
+  }
+
+  .paragraph-two{
+    color: white;
+    font-size: 1.5em;
+    font-weight:lighter;
+    text-align:center;
+    margin-left: 4em;
+    margin-right:4em;
+  }
+
+  .subtitle {
+    font-size:1.5em;
+    color:grey;
+    font-weight:lighter;
+    text-align: center;
+  }
+
+  .subtitle-two {
+    font-size:1.2em;
+    color:white;
+    font-weight:lighter;
+    text-align: center;
+  }
+
+  .title-two {
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .work-with-us-title {
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8em;
+  }
+
+  .work-with-us{
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-weight:400;
+    font-size:2em;
+    line-height: 1em;
+    text-align: center;
+  }
+
+  .work-with-us-para {
+    font-weight:lighter;
+    margin: 30px 0 0 0;
+    font-size: 1.5em;
+    padding: 0 10px 0 10px;
+  }
+
+  .portfolio-img-hero {
+    max-width: 100%;
+    height:auto;
+    z-index: -3;
+    position: relative;
+  }
+
+  .socialmedia {
+    max-width: 80%;
+  }
+
+  #backgroundone {
+    background-image: url("/images/portfolio-mockup-office.png");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .btn-portfolio {
+    background-color: white;
+    border-color: grey;
+    color:white;
+    border-width: 3px;
+    padding: 5px;
+  }
+
+  #testimonial {
+    width:225px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  .testimonial-block {
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    -moz-box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    margin: auto;
+  }
+
+  .testimonial-paragraph {
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: lighter;
+    color: #323232;
+  }
+
+  .testimonial-name {
+    font-size: 1.5em;
+    text-align:left;
+    font-weight: 200;
+  }
+
+  .call-to-action {
+    position:relative;
+    z-index: auto;
+    width:auto;
+    height:60px;
+    bottom:0;
+    background-color: #323232;
+    color:white;
+    box-shadow: 1px 0 15px 0px black;
+  }
+
+  .is-table {
+        display: table;
+    }
+    .is-table [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .hide-767px-onwards {
+    display: none;
+    }
+
+    .hide-1200px-above {
+      display:none;
+    }
+
+    .testimonial-large {
+      background-color: white;
+      border-radius: 5px;
+      border-color:black;
+      width: 350px;
+      height: auto;
+      padding-bottom: 20px;
+      -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+      margin: auto;
+    }
+
+    .testimonial-large-title {
+      font-spacing: 1em;
+      font-size: 1.8em;
+      font-weight: 400;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+  /*---end of portfolio---*/
+
+
+.challenge {
+  margin-top:0px;
+  background-color:#323232;
+  text-align:center;
+  color:white;
+  margin-top:-40px;
+  z-index:1;
+}
+
+.hide-1200px-above {
+  display: none;
+}
+
+.challenge {
+  margin-top:0px;
+  background-color:#323232;
+  text-align:center;
+  color:white;
+  z-index:1;
+}
+
+
+
+}
+
+@media (min-width:768px) and (max-width:1200px){
+
+  /* Portfolio Page CSS */
+
+
+  .challenge {
+    margin-top:0px;
+    background-color:#323232;
+    text-align:center;
+    color:white;
+    z-index:1;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+  }
+
+  .subtitle-hero {
+    font-weight: lighter;
+    font-size: 1.5em;
+  }
+
+  .paragraph{
+    font-size: 1.5em;
+    font-weight:lighter;
+    text-align:left;
+  }
+
+  .paragraph-two{
+    color: white;
+    font-size: 1.5em;
+    font-weight:lighter;
+    text-align:center;
+  }
+
+  .subtitle {
+    font-size:1.2em;
+    color:grey;
+    font-weight:lighter;
+  }
+
+  .subtitle-two {
+    font-size:1.2em;
+    color:white;
+    font-weight:lighter;
+    text-align: center;
+  }
+
+  .title-two {
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .work-with-us-title {
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8em;
+  }
+
+  .work-with-us{
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-weight:400;
+    font-size:2em;
+    line-height: 1em;
+    text-align: center;
+  }
+
+  .work-with-us-para {
+    font-weight:lighter;
+    margin: 30px 0 0 0;
+    font-size: 1.5em;
+    padding: 0 10px 0 10px;
+  }
+
+  .portfolio-img-hero {
+    max-width: 100%;
+    height:auto;
+    z-index: -3;
+    position: relative;
+  }
+
+  .socialmedia {
+    max-width: 80%;
+  }
+
+  #backgroundone {
+    background-image: url("/images/portfolio-mockup-office.png");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .btn-portfolio {
+    background-color: white;
+    border-color: grey;
+    color:white;
+    border-width: 3px;
+    padding: 5px;
+  }
+
+  #testimonial {
+    width:250px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  .testimonial-block {
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    -moz-box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    margin: auto;
+  }
+
+  .testimonial-paragraph {
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 300;
+    color: #323232;
+    margin:1em 2em 1em 2em;
+    font-weight: lighter;
+  }
+
+  .testimonial-name {
+    font-size: 1.5em;
+    text-align:left;
+    padding-left: 2em;
+  }
+
+.testimonial-left {
+  text-align: left;
+  margin-left: 42px;
+  }
+
+  .call-to-action {
+    position:relative;
+    z-index: auto;
+    width:auto;
+    height:60px;
+    bottom:0;
+    background-color: #323232;
+    color:white;
+    box-shadow: 1px 0 15px 0px black;
+  }
+
+
+  .is-table {
+    display: table;
+  }
+  .is-table [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .hide-767px-onwards {
+    display: none;
+  }
+
+
+  .hide-1200px-below {
+    display: none;
+  }
+
+  .testimonial-large {
+    background-color: white;
+    border-radius: 5px;
+    border-color:black;
+    width: 250px;
+    height: auto;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    -moz-box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+    margin: auto;
+  }
+
+  .testimonial-large-title {
+    font-spacing: 1em;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  /*---end of portfolio---*/
+
+
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+
+  .hide-1200px-below {
+    display: none;
+  }
+
+  .challenge {
+    margin-top:-40px;
+    background-color:#323232;
+    text-align:center;
+    color:white;
+    margin-top:-40px;
+    z-index:1;
+  }
+
+
+
+.navbar {
+  position: relative;
+}
+
+.hero {
+  height: 731px;
+}
+
+.intro {
+  font-size: 35px;
+  top: 0;
+  padding-bottom: 0;
+}
+.intro span {
+  left: 0;
+}
+
+.hero-title {
+  top: 0;
+  left: 0;
+}
+
+.hero-btn {
+  top: 110%;
+  left: 5%;
+  width: 165px;
+  height: 40px;
+}
+.hero-btn span {
+  font-size: 18px;
+}
+
+.intro-img {
+  display: block;
+  width: 106%;
+  margin-top: 125px;
+}
+
+.row {
+  margin-right:0;
+}
+
+.top-bar {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.main-nav ul {
+  padding: 0;
+}
+.main-nav li {
+  padding-top: 15px;
+  font-size: 18px;
+  text-align: left;
+  list-style: none;
+}
+
+
+/* Portfolio Page CSS */
+
+.title{
+  letter-spacing: 0.3em;
+  font-weight: bold;
+}
+
+.subtitle-hero {
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.paragraph{
+  font-weight:lighter;
+  text-align:left;
+}
+
+.paragraph-two{
+  color: white;
+  font-weight:lighter;
+  text-align:left;
+}
+
+.hide-768px-below {
+  display:none
+}
+
+.subtitle {
+  font-size:1em;
+  color:grey;
+  font-weight:lighter;
+}
+
+.subtitle-two {
+  font-size:1em;
+  color:white;
+  font-weight:lighter;
+}
+
+.work-with-us-title {
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.work-with-us{
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-weight:400;
+  font-size:2em;
+  line-height: 1em;
+}
+
+.work-with-us-para {
+  font-weight:lighter;
+  margin: 30px 0 0 0;
+}
+
+.portfolio-img-hero {
+  max-width: 100%;
+  height:auto;
+  z-index: -3;
+  position: relative;
+}
+
+.socialmedia {
+  max-width: 100%;
+  margin:0;
+}
+
+
+#backgroundone {
+  background-image: url("/images/portfolio-mockup-office.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.btn-portfolio {
+  background-color: white;
+  border-color: grey;
+  color:white;
+  border-width: 3px;
+  padding: 5px;
+}
+
+#testimonial {
+  width:300px;
+  margin-bottom:20px;
+}
+
+.testimonial-block {
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+  -moz-box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+  box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.49);
+  margin: auto;
+}
+
+.testimonial-paragraph {
+  text-align: left;
+  font-weight: 300;
+  color: #323232;
+  margin:1em 2em 1em 2em;
+}
+
+.testimonial-name {
+  text-align:right;
+  padding-right:2em
+}
+
+.call-to-action {
+  position:relative;
+  z-index: auto;
+  width:auto;
+  height:60px;
+  bottom:0;
+  background-color: #323232;
+  color:white;
+  box-shadow: 1px 0 15px 0px black;
+}
+
+}
+/*---end of portfolio---*/
